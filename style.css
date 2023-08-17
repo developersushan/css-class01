@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+   
+}
+.header-section{
+background-color: green;
+position: fixed;
+width: 100%;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2rem;
+}
+.navber ul li{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+.navber ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all ease-in-out 0.2s;
+}
+.navber ul li a:hover{
+    color: white;
+}
+.navber ul li ul{
+    position: absolute;
+    background: greenyellow;
+    padding: 10px;
+    top: 20px;
+    left: 0%;
+    display: none;
+    transition: all ease-in 0.2s;
+   
+}
+.navber ul li ul li{
+    line-height: 30px;
+}
+
+/*hover effect*/
+.navber ul li:hover ul{
+display: block;
+
+}
+
+/*banner section*/
+.banner img{
+    width: 100%;
+    height: 600px;
+}
+
+/*about section*/
+.about-section{
+    padding: 10px 0px 10px 0px;
+}
+.about{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.left-section{
+    width: 33.33%;
+}
+.left-section img{
+    width: 100%;
+}
+.center-section{
+    width: 33.33%;
+}
+.right-section{
+    width: 33.33%;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+footer p{
+    font-size: 20px;
+}
